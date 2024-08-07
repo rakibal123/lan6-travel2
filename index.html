@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+<body>
+    <img src="" alt="">
+    <header class=" bg-[url('./images/bg.jpg')] h-screen bg-cover bg-center">
+        <section class="mx-32">
+            <nav class="flex justify-between py-6 text-white font-bold text-lg">
+                <p class="text-3xl">Travel.Io</p>
+                <ul class="flex gap-10 mt-2">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div class="relative">
+                    <input class="font-normal py-2 outline-none text-white bg-transparent border-b-2 border-black" type="text" placeholder="Search">
+                    <span class="text-xl absolute top-2 left-44"><i class="ri-search-line"></i> </span>
+                </div>
+            </nav>
+        </section>
+        <section class="mx-32">
+            <div class="flex justify-between pt-16 text-white">
+            <div class="w-1/2">
+                <h2 class="text-6xl mb-5 font-bold uppercase leading-tight">Discovering <br>
+                The world</h2>
+                <p class="text-lg pr-40 mb-8">Through travels,individuals have the opportunity to 
+                    immerse themselves in different culture, try new foods,
+                    and witness the beauty of nature.Exploring new places
+                    can also challenges one's comfort zone and help to
+                    develop important life skills.
+                </p>
+                <div class="flex gap-7 mb-5">
+                    <button class="bg-white text-black text-lg font-medium rounded-full py-3 px-6">Read More</button>
+                    <button class="bg-transparent ring-2 ring-white hover:bg-white hover:text-black duration-300 text-lg font-medium rounded-full py-3 px-6">Our Blogs</button>
+                </div>
+                <div>
+                    <span class=" border-2 border-white mr-4 cursor-pointer text-3xl rounded-full"><i class=" ri-arrow-left-s-line"></i></span>
+                    <span class=" border-2 border-white mr-4 cursor-pointer text-3xl rounded-full"><i class="ri-arrow-right-s-line"></i></span>
+                </div>
+            </div>
+            <div class=" h-80 w-80 mt-20 relative border-2">
+                <div class="px-8 py-9 ">
+                    <h2 class="text-xl font-bold mb-6">Where your want to go?</h2>
+                <label class="text-lg">Destination
+                    <input class="outline-none bg-transparent mb-5 py-2 border-b-2 w-full" type="text" placeholder="Enter destination">
+                </label><br>
+                <label>
+                    <label class="text-lg">Date <br>
+                        <input class="outline-none bg-transparent mb-5 py-2 border-b-2 w-full" type="date" name="" id="">
+                    </label>
+                </label>
+                </div>
+                <button class="bg-orange-400 py-2 text-lg absolute bottom-0 rounded-t-lg mt-5 font-medium text-center w-full px-0">Check Travel Package</button>
+            </div>
+        </div>
+        </section>
+    </header>
+
+</body>
+</html>
